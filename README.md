@@ -14,6 +14,12 @@
     - give significance to testing
 
 * Notes
+  - to generate project
     ```
     mvn archetype:generate -DgroupId=tech.kitucode.tdd -DartifactId=tdd -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
-    ``` 
+    ```
+  - to execute the tests  
+    ```
+      mvn test
+      ``` 
+   
